@@ -1,6 +1,11 @@
 import React from 'react'
 import '../card/card.style.css'
+
+
+
+
 const Card = (props) =>{
+    
     return(
         <div className='card-container'>
             <img src={`https://robohash.org/${props.Monsters.id}?set=set2&size=180x180`} alt='monsters'/>
@@ -11,3 +16,7 @@ const Card = (props) =>{
 }
 
 export default Card
+
+
+
+
